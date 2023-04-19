@@ -74,7 +74,7 @@ class App extends Component {
       .then(response => response.json())
       .then(response => {
         if (response) {
-          fetch('https://face-recognition-z6yi.onrender.com/image', {
+          fetch('https://mybackend-uve8.onrender.com/image', {
             method: 'put',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
